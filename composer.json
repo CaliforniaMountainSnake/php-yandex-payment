@@ -1,0 +1,34 @@
+{
+    "name": "californiamountainsnake/php-yandex-payment",
+    "type": "library",
+    "description": "This is a simple php library for handling Yandex.Money payments",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CaliforniaMountainSnake",
+            "email": "CaliforniaMountainSnake1@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.3.1"
+    },
+    "require-dev": {
+        "ext-dom": "*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CaliforniaMountainSnake\\PhpYandexPayment\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "\"vendor/bin/phpunit\""
+        ]
+    }
+}
