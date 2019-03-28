@@ -3,9 +3,9 @@
 namespace Tests\Unit;
 
 use CaliforniaMountainSnake\PhpYandexPayment\Exceptions\PaymentException;
+use CaliforniaMountainSnake\PhpYandexPayment\Faker\YandexPaymentFaker;
 use CaliforniaMountainSnake\PhpYandexPayment\HttpPaymentNotice\YandexHttpPaymentNotice;
 use PHPUnit\Framework\TestCase;
-use Tests\TestValues\YandexPaymentFaker;
 
 class YandexPaymentFakerTest extends TestCase
 {

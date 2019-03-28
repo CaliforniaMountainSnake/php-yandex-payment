@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\TestValues;
+namespace CaliforniaMountainSnake\PhpYandexPayment\Faker;
 
 trait YandexPaymentFaker
 {
